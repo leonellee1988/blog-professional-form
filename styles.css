@@ -1,0 +1,35 @@
+/*My professional blog's form styles*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formContainer{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+}
+
+.titleForm{
+    margin-bottom: 20px;
+}
+
+.labelItem{
+    margin-bottom: 3px;
+}
+
+#countryList, #age, #gender, #education, #work, #rate{
+    width: 25%;
+    margin-bottom: 15px;
+}
+
+#submit{
+    width: 15%;
+    padding: 10px 0px;
+}
