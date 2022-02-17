@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   
   <head>
@@ -16,10 +17,13 @@
     method="get"
     action="data_base.php">
 
-        <h1 class="titleForm">My blog form...</h1>
+        <img src="icon.png" />
+        <h1 class="titleForm">My Blog's Form</h1>
 
         <label class="labelItem">Country: </label>
-        <select id="countryList" name="countryList">
+        <select 
+        id="countryList" 
+        name="countryList">
         </select>
 
         <label class="labelItem">Age: </label>
@@ -30,13 +34,19 @@
         autocomplete="off"/>
 
         <label class="labelItem">Gender: </label>
-        <select id="gender" name="gender">
+        <select 
+        id="gender" 
+        name="gender">
+          <option selected></option>
           <option value="Female">Female</option>
           <option value="Male">Male</option>
         </select>
 
         <label class="labelItem">Education: </label>
-        <select id="education" name="education">
+        <select 
+        id="education" 
+        name="education">
+          <option selected></option>
           <option value="Elementary">Elementary</option>
           <option value="High School">High School</option>
           <option value="College">College</option>
@@ -46,7 +56,10 @@
         </select>
 
         <label class="labelItem">Work area: </label>
-        <select id="work" name="work">
+        <select 
+        id="work" 
+        name="work">
+          <option selected></option>
           <option value="Student">Student</option>
           <option value="Education">Education</option>
           <option value="Administrative">Administrative</option>
@@ -55,8 +68,12 @@
           <option value="Other">Other</option>
         </select>
 
-        <label class="labelItem">Work area: </label>
-        <select id="rate" name="rate">
+        <label class="labelItem">Rate my web: </label>
+        <select 
+        id="rate" 
+        name="rate"
+        onfocus="this.size=5">
+          <option selected></option>
           <option value= 1>1</option>
           <option value= 2>2</option>
           <option value= 3>3</option>

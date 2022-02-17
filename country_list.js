@@ -7,14 +7,14 @@ document.addEventListener("DOMContentLoaded", ()=>{
         return res.json();
     }).then(data=>{
         let outPut = "";
-        let array = [];
+        let arrayCountry = [];
 
         data.forEach(country => {
-            array.push(country.name.common);
-            array.sort();
+            arrayCountry.push(country.name.common);
+            arrayCountry.sort();
         })
 
-        for(let item of array){
+        for(let item of arrayCountry){
             outPut += `<option value="${item}">${item}</option>`;
         }
 
