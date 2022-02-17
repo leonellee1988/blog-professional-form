@@ -1,0 +1,60 @@
+/*Styles for the upload/error information message*/
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+            
+body{
+    align-items: center;
+    background-color: #192231;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.uploadMessage{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 200px;
+}
+
+p{
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+}
+
+/*----------Media query for mobile device (vertical position)----------*/
+
+@media (max-width: 550px){
+
+body{
+    align-items: center;
+    background-color: #192231;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.uploadMessage{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 200px;
+}
+
+p{
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+    background-color: aqua;
+}
+
+}
