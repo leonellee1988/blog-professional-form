@@ -89,7 +89,7 @@ img{
     font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 15px;
     padding: 10px 0px;
     width: 30%;
 }
@@ -108,6 +108,7 @@ body{
 .formContainer{
     background-color: #192231;
     border-radius: 5px;
+    margin-bottom: 40px;
     margin-top: 40px;
     width: 75%;
 }
@@ -129,7 +130,6 @@ img{
     color: #fff;
     font-size: 18px;
     font-family: 'Didact Gothic', sans-serif;
-    left: 75px;
     width: 75%;
 }
 
@@ -149,9 +149,337 @@ img{
     font-family: 'Didact Gothic', sans-serif;
     font-size: 16px;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 10px;
     padding: 10px 0px;
-    width: 30%;
+    width: 20%;
+}
+
+}
+
+/*----------Media query for HD (1280x1720)----------*/
+
+@media (min-width: 1000px){
+
+body{
+    background-color: #494E6b;
+    width: 100vw;
+}
+
+.formContainer{
+    background-color: #192231;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 50%;
+}
+
+.titleForm{
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+img{
+    margin: 0 auto;
+    width: 100px;
+}
+
+.labelItem{
+    align-self: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    width: 75%;
+}
+
+#countryList, #age, #gender, #education, #work, #rate{
+    align-self: center;
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    overflow: scroll;
+    width: 75%;
+}
+
+#submit{
+    background-color: #98878F;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding: 10px 0px;
+    width: 20%;
+}
+
+}
+
+/*----------Media query for FHD (1920x1080)----------*/
+
+@media (min-width: 1920px){
+
+body{
+    background-color: #494E6b;
+    width: 100vw;
+}
+
+.formContainer{
+    background-color: #192231;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 50%;
+}
+
+.titleForm{
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 60px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+img{
+    margin: 0 auto;
+    width: 175px;
+}
+
+.labelItem{
+    align-self: center;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 5px;
+    width: 75%;
+}
+
+#countryList, #age, #gender, #education, #work, #rate{
+    align-self: center;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 35px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 25px;
+    overflow: scroll;
+    width: 75%;
+}
+
+#submit{
+    background-color: #98878F;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 15px 0px;
+    width: 20%;
+}
+
+}
+
+/*----------Media query for QHD (2560x1440)----------*/
+
+@media (min-width: 2560px){
+
+body{
+    background-color: #494E6b;
+    width: 100vw;
+}
+
+.formContainer{
+    background-color: #192231;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    width: 50%;
+}
+
+.titleForm{
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 75px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+img{
+    margin: 0 auto;
+    width: 225px;
+}
+
+.labelItem{
+    align-self: center;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 8px;
+    width: 75%;
+}
+
+#countryList, #age, #gender, #education, #work, #rate{
+    align-self: center;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 42px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 35px;
+    overflow: scroll;
+    width: 75%;
+}
+
+#submit{
+    background-color: #98878F;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 35px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 25px 0px;
+    width: 20%;
+}
+
+}
+
+/*----------Media query for UHD (3840x2160)----------*/
+
+@media (min-width: 3840px){
+
+body{
+    background-color: #494E6b;
+    width: 100vw;
+}
+
+.formContainer{
+    background-color: #192231;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    width: 50%;
+}
+
+.titleForm{
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 110px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+img{
+    margin: 0 auto;
+    width: 310px;
+}
+
+.labelItem{
+    align-self: center;
+    color: #fff;
+    font-size: 75px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 15px;
+    width: 75%;
+}
+
+#countryList, #age, #gender, #education, #work, #rate{
+    align-self: center;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 70px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 50px;
+    overflow: scroll;
+    width: 75%;
+}
+
+#submit{
+    background-color: #98878F;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 60px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding: 35px 0px;
+    width: 20%;
+}
+
+}
+
+/*----------Media query for UHD 8K (7680x4320)----------*/
+
+@media (min-width: 7680px){
+
+body{
+    background-color: #494E6b;
+    width: 100vw;
+}
+
+.formContainer{
+    background-color: #192231;
+    border-radius: 5px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    width: 50%;
+}
+
+.titleForm{
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 225px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+img{
+    margin: 0 auto;
+    width: 550px;
+}
+
+.labelItem{
+    align-self: center;
+    color: #fff;
+    font-size: 175px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 15px;
+    width: 75%;
+}
+
+#countryList, #age, #gender, #education, #work, #rate{
+    align-self: center;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 150px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 125px;
+    overflow: scroll;
+    width: 75%;
+}
+
+#submit{
+    background-color: #98878F;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 125px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    margin-top: 60px;
+    padding: 50px 0px;
+    width: 20%;
 }
 
 }
