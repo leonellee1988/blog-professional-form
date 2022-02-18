@@ -7,10 +7,10 @@
     $my_work = $_GET["work"];
     $my_rate = $_GET["rate"];
 
-    $my_host = "localhost";
-    $my_user = "root";
-    $my_password = "";
-    $my_db = "my_blog_form";
+    $my_host = "ec2-34-206-148-196.compute-1.amazonaws.com";
+    $my_user = "zoamtdgnjxkpje";
+    $my_password = "5e9bac442fde8cf3e947746b5c28f12a31d8dc0d7bcc32cab8f9e4a50b1f3167";
+    $my_db = "d4jj8qvivkb39o";
 
     $my_conection = mysqli_connect($my_host, $my_user, $my_password, $my_db);
 
